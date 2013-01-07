@@ -2,9 +2,9 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://flickr-downloadr.github.com/flickr-downloadr-blog/blogs
+url: http://flickrdownloadr.com/blogs
 title: flickr downloadr
-subtitle: 
+subtitle: The flickr downloadr Blog
 author: flickr downloadr
 simple_search: http://google.com/search
 description:
@@ -16,7 +16,7 @@ description:
 date_format: "ordinal"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-subscribe_rss: /flickr-downloadr-blog/blogs/atom.xml
+subscribe_rss: /blogs/atom.xml
 subscribe_email:
 # RSS feeds can list your email address if you like
 email:
@@ -26,10 +26,10 @@ email:
 # ----------------------- #
 
 # If publishing to a subdirectory as in http://site.com/project set 'root: /project'
-root: /flickr-downloadr-blog/blogs
+root: /blogs
 permalink: /blog/:year/:month/:day/:title/
 source: source
-destination: public/flickr-downloadr-blog/blogs
+destination: public/blogs
 plugins: plugins
 code_dir: downloads/code
 category_dir: blog/categories
