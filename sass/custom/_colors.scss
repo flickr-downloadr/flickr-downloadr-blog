@@ -46,4 +46,9 @@
 html {
   background: #fff image-url('furley_bg.png') fixed !important;
 }
+$nav-bg: #1f1f1f;
+$nav-bg-front: #222;
+$nav-bg-back: linear-gradient(lighten($nav-bg, 8), $nav-bg, darken($nav-bg, 11));
+$nav-color: darken(#fff, 38);
+$nav-color-hover: lighten($nav-color, 25);
 /* End   flickrdownloadr customizing */
