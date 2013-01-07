@@ -1,2 +1,69 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
+
+#fd-forkme-ribbon img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.fd-footer-credits {
+    float: left;
+}
+
+.fd-footer-copyright {
+    float: right;
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+    #fd-forkme-ribbon {
+        display: inline;
+    }
+
+    #fd-forkme-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 980px) and (max-width: 1199px) {
+    #fd-forkme-ribbon {
+        display: inline;
+    }
+
+    #fd-forkme-menu {
+        display: none;
+    }
+}
+
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+    #fd-forkme-ribbon {
+        display: none;
+    }
+
+    #fd-forkme-menu {
+        display: inline;
+    }
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+    #fd-forkme-ribbon {
+        display: none;
+    }
+
+    #fd-forkme-menu {
+        display: inline;
+    }
+
+    .fd-footer-credits, .fd-footer-copyright {
+        float: none;
+        display: block;
+    }
+}

@@ -41,3 +41,9 @@
 //$pre-bg: $base03;
 //$pre-border: darken($base02, 5);
 //$pre-color: $base1;
+
+/* Start flickrdownloadr customizing */
+html {
+  background: #fff image-url('furley_bg.png') fixed !important;
+}
+/* End   flickrdownloadr customizing */
