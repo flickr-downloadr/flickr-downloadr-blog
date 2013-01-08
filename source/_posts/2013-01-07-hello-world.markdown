@@ -4,7 +4,6 @@ title: "Hello, World!"
 date: 2013-01-07 20:31
 comments: true
 author: Floyd Pink
-published: false
 categories: [flickr downloadr, General, history]
 ---
 #### Hello, and a hearty welcome to the flickr downloadr blog!
@@ -13,7 +12,7 @@ categories: [flickr downloadr, General, history]
 
 But soon after the authentication modules using [OAuth](http://en.wikipedia.org/wiki/OAuth "OAuth") were done, the enthusiasm died and there was a brief hiatus in the development and it is recently that it has gained some momentum again. As of this writing, the latest beta version of the app works on any version of Windows that can run [.NET framework 4.5](http://msdn.microsoft.com/en-us/library/w0x726c2.aspx), which is Windows Vista (untested), Windows 7 and Windows 8.
 
-There are quite a few rough edges and a few known issues, but when signed in with a flickr [Pro](http://www.flickr.com/help/limits/#28) (read _paid_) account, the app would show all of the photos from the logged in user's photostream. All of the photos, or a selection could then be downloaded and again, as of the version of this writing (v0.6.3.1), the location where photos are downloaded, the size, and the associated metadata are all hard-coded.
+<!-- more -->There are quite a few rough edges and a few known issues, but when signed in with a flickr [Pro](http://www.flickr.com/help/limits/#28) (read _paid_) account, the app would show all of the photos from the logged in user's photostream. All of the photos, or a selection could then be downloaded and again, as of the version of this writing (v0.6.3.1), the location where photos are downloaded, the size, and the associated metadata are all hard-coded.
 
 In the coming months, the plan is to add a way to capture user preferences for some of the things mentioned above and also to fix the few known bugs/defects.
 
