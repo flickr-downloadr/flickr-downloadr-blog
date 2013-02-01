@@ -19,7 +19,7 @@ deploy_branch  = "gh-pages"
 public_dir      = "public/blogs"    # compiled site directory
 source_dir      = "source"    # source file directory
 blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
-deploy_dir      = "_deploy"   # deploy directory (for Github pages deployment)
+deploy_dir      = "_deploy/blogs"   # deploy directory (for Github pages deployment)
 stash_dir       = "_stash"    # directory to stash posts for speedy generation
 posts_dir       = "_posts"    # directory for blog files
 themes_dir      = ".themes"   # directory for blog files
@@ -338,7 +338,7 @@ task :setup_github_pages, :repo do |t, args|
     f.write jekyll_config
   end
   rm_rf deploy_dir
-  mkdir -p deploy_dir
+  mkdir_p deploy_dir
   cd "#{deploy_dir}" do
     system "git init"
     system "echo 'My Octopress Page is coming soon &hellip;' > index.html"
