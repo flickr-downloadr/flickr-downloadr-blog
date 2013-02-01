@@ -338,7 +338,7 @@ task :setup_github_pages, :repo do |t, args|
     f.write jekyll_config
   end
   rm_rf deploy_dir
-  mkdir deploy_dir
+  mkdir -p deploy_dir
   cd "#{deploy_dir}" do
     system "git init"
     system "echo 'My Octopress Page is coming soon &hellip;' > index.html"
