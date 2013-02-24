@@ -2,6 +2,7 @@
 <link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 <link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
 {% if site.twitter_user %}
+    {% capture canonical %}{{ site.url }}{% if site.permalink contains '.html' %}{{ page.url }}{% else %}{% if page.url contains site.category_dir %}/{% endif %}{{ page.url | remove:'index.html' }}{% endif %}{% endcapture %}
     <meta property="twitter:card" content="summary">
     <meta property="twitter:site" content="{{ site.twitter_user }}">
     <meta property="twitter:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}">
