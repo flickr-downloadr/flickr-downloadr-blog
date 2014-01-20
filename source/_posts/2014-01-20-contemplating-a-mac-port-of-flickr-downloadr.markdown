@@ -4,7 +4,7 @@ title: "Contemplating a Mac port of flickr-downloadr"
 date: 2014-01-20 14:06
 comments: true
 author: Floyd Pink
-categories: [flickr downloadr, Technical, Mac, Cocoa, Objective] 
+categories: [flickr downloadr, Technical, Mac, Cocoa, Objective-C] 
 ---
 It's been a long time since something has been posted on this blog! And really, it's been quite a while since something has been done with the app at all. 
 
