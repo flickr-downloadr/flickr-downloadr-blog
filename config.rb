@@ -1,9 +1,12 @@
+require 'sass-globbing'
+
 # Require any additional compass plugins here.
 project_type = :stand_alone
 
 # Publishing paths
 http_path = "/blogs"
 http_images_path = "/blogs/images"
+http_generated_images_path = "/blogs/images"
 http_fonts_path = "/blogs/fonts"
 css_dir = "public/blogs/stylesheets"
 
