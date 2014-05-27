@@ -6,8 +6,8 @@ url: http://flickrdownloadr.com/blogs
 title: flickr downloadr
 subtitle: The flickr downloadr Blog
 author: flickr downloadr
-simple_search: http://google.com/search
-description:
+simple_search:
+description: A cross-platform desktop application for Windows, Mac and Linux to download (all or selected) photos from your photostream in their original size along with their description, title and tags.
 
 # Default date format is "ordinal" (resulting in "July 22nd 2007")
 # You can customize the format as defined in
