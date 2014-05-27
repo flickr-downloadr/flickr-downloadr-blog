@@ -1,4 +1,4 @@
-<nav class="navbar navbar-default" role="navigation">
+<nav class="navbar navbar-inverse navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -6,17 +6,41 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="{{ root_url }}/">{{ site.title }}</a>
+            <a class="navbar-brand" href="/">{{ site.title }}</a>
         </div>
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
+                <li><a href="/">Home</a></li>
                 <li {% if page.navbar == 'Blog' %}class="active"{% endif %}>
                     <a href="{{ root_url }}/">Blog</a>
                 </li>
+                <!--
                 <li {% if page.navbar == 'Archives' %}class="active"{% endif %}>
                     <a href="{{ root_url }}/blog/archives">Archives</a>
                 </li>
+                -->
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Downloads <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/downloads">All Platforms</a></li>
+                        <li class="divider"></li>
+                        <li class="dropdown-header">On GitHub</li>
+                        <li><a onClick="fdScripts.gaTrack('Files', 'Download', 'zipball (blog)');" target="_blank"
+                               href="https://github.com/flickr-downloadr/flickr-downloadr-gtk/zipball/master"> Source as ZIP </a></li>
+                        <li><a onClick="fdScripts.gaTrack('Files', 'Download', 'tarball (blog)');" target="_blank"
+                               href="https://github.com/flickr-downloadr/flickr-downloadr-gtk/tarball/master"> Source as TAR </a></li>
+                    </ul>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/documentation">Documentation</a></li>
+                        <li><a onClick="fdScripts.gaTrack('External', 'Click', 'Issues (blog)');"
+                               href="https://github.com/flickr-downloadr/flickr-downloadr-gtk/issues" target="_blank">Report Issues</a></li>
+                    </ul>
+                </li>
+                <li><a href="mailto:contact.us@flickrdownloadr.com">Contact Us</a></li>
+                <li id="fd-forkme-menu"><a onClick="fdScripts.gaTrack('Source', 'Fork', 'mobile banner (blog)');"
+                                           href="https://github.com/flickr-downloadr/flickr-downloadr-gtk" target="_blank"> Fork me on GitHub </a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 <li>
@@ -42,6 +66,8 @@
                     </div>
                 </form>
             {% endif %}
+            <a id="fd-forkme-ribbon" onClick="fdScripts.gaTrack('Source', 'Fork', 'banner (blog)');" href="https://github.com/flickr-downloadr/flickr-downloadr-gtk"
+               target="_blank"> <img src="/images/forkme.png" alt="Fork me on GitHub"> </a>
         </div>
     </div>
 </nav>
