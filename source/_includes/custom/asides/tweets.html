@@ -1,7 +1,10 @@
 {% if site.twitter_user and site.twitter_widget_id %}
-<div class="panel-heading">
-    <h3 class="panel-title">Latest Tweets</h3>
-</div>
-<p><a class="twitter-timeline" href="https://twitter.com/{{site.twitter_user}}" data-widget-id="{{site.twitter_widget_id}}">Tweets by @{{ site.twitter_user }}</a></p>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+<section class="panel panel-default clearfix">
+    <div class="panel-heading">
+        <h3 class="panel-title">Latest Tweets</h3>
+    </div>
+    <p><a class="twitter-timeline" href="https://twitter.com/{{site.twitter_user}}" data-widget-id="{{site.twitter_widget_id}}">Tweets by @{{ site.twitter_user }}</a></p>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+</section>
 {% endif %}
