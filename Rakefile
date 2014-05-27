@@ -12,14 +12,14 @@ rsync_args     = ""  # Any extra arguments to pass to rsync
 deploy_default = "push"
 
 # This will be configured for you when you run config_deploy
-deploy_branch  = "gh-pages"
+deploy_branch  = "source"
 
 ## -- Misc Configs -- ##
 
-public_dir      = "public/blogs"    # compiled site directory
+public_dir      = "public/app/blogs"    # compiled site directory
 source_dir      = "source"    # source file directory
 blog_index_dir  = 'source'    # directory for your blog's index page (if you put your index in source/blog/index.html, set this to 'source/blog')
-deploy_dir      = "_deploy/blogs"   # deploy directory (for Github pages deployment)
+deploy_dir      = "_deploy/app/blogs"   # deploy directory (for Github pages deployment)
 stash_dir       = "_stash"    # directory to stash posts for speedy generation
 posts_dir       = "_posts"    # directory for blog files
 themes_dir      = ".themes"   # directory for blog files
