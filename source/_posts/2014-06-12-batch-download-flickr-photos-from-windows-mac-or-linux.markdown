@@ -6,11 +6,11 @@ comments: true
 author: Floyd Pink
 categories: [flickr downloadr, Technical, Windows, Mac, Linux, Cross Platform] 
 ---
-The [previous entry](/blogs/blog/2014/01/20/contemplating-a-mac-port-of-flickr-downloadr/) on this blog discussed the idea of probably creating a native, Cocoa, Mac OS X port for the then, Windows-only, WPF version of the app.
+The [previous entry](/blog/2014/01/20/contemplating-a-mac-port-of-flickr-downloadr/) on this blog discussed the idea of probably creating a native, Cocoa, Mac OS X port for the then, Windows-only, WPF version of the app.
 
 Any action started much later from the date of the post; to be precise, more than two months later with the creation of a new repository with [this commit](https://github.com/flickr-downloadr/flickr-downloadr-gtk/commit/3f94a6bc13c87f905e3f5be5e9872accb6930f05). The research that happened in-between helped decide on a third alternative - that of completely porting over the .NET C#/WPF into a Mono, C#/GTK# app that could work on all of Windows, Mac and Linux.
 
-And exactly after two months and one day [the v1.0](https://github.com/flickr-downloadr/flickr-downloadr-gtk/commit/de399a3526344ea96d1847eff2836e15674a7553) of the new GTKSharp enabled flickr downloadr was published on [this website](/).
+And exactly after two months and one day [the v1.0](https://github.com/flickr-downloadr/flickr-downloadr-gtk/commit/de399a3526344ea96d1847eff2836e15674a7553) of the new GTKSharp enabled flickr downloadr was published on [this website](/../).
 
 It really was an exhilarating journey of many frustrations, joy, learnings and moments of bliss - and there are a few things that I would like to follow up in separate entries here. Like:
 
