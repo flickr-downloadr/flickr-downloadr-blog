@@ -8,6 +8,13 @@
 <meta name="twitter:image" content="http://flickrdownloadr.com/static/images/screenshot.png">
 <!-- end twitter card summary -->
 {% endif %}
+<!-- start facebook open graph tags -->
+<meta property="og:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}">
+<meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+<meta property="og:image" content="http://flickrdownloadr.com/static/images/screenshot.png">
+<meta property="og:site_name" content="flickrdownloadr">
+<meta property="og:description" content="{{ description | strip_html | condense_spaces | truncate:200 }}">
+<!-- end facebook open graph tags -->
 <link href="{{ root_url }}/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 <link href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
