@@ -8,7 +8,7 @@ author: Floyd Pink
 categories: [flickr downloadr, Technical, Windows, Mac, Linux, Continuous Integration, Travis CI, AppVeyor, Wercker]
 ---
 
-> As written on [the last entry](/blogs/blog/2014/06/12/batch-download-flickr-photos-from-windows-mac-or-linux/) in this blog, I finally got to write something on points 1) and 2) there - the CI (continuous integration) builds that are running in parallel on AppVeyor, Travis CI and Wercker and the multi-platform installers they create and publish to the website. I wrote this up as [documentation on the main GitHub repository](https://github.com/flickr-downloadr/flickr-downloadr-gtk/blob/bba17e54cdca04e07eb3422d07cc82888bdbb986/continuous-integration.md) but decided to cross-post here on the blog too.
+> As written on [the last entry](/blog/2014/06/12/batch-download-flickr-photos-from-windows-mac-or-linux/) in this blog, I finally got to write something on points 1) and 2) there - the CI (continuous integration) builds that are running in parallel on AppVeyor, Travis CI and Wercker and the multi-platform installers they create and publish to the website. I wrote this up as [documentation on the main GitHub repository](https://github.com/flickr-downloadr/flickr-downloadr-gtk/blob/bba17e54cdca04e07eb3422d07cc82888bdbb986/continuous-integration.md) but decided to cross-post here on the blog too.
 
 ### Automated Build Process
 
