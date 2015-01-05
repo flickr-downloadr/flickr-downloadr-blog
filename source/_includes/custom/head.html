@@ -9,6 +9,7 @@
 <!-- end twitter card summary -->
 {% endif %}
 <!-- start facebook open graph tags -->
+<meta property="og:type" content="website">
 <meta property="og:url" content="{% if canonical %}{{ canonical }}{% else %}{{ site.url }}{% endif %}">
 <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
 <meta property="og:image" content="http://flickrdownloadr.com/static/images/screenshot.png">
