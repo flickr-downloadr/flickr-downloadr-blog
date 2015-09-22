@@ -1,4 +1,4 @@
-## [flickrdownloadr.com/blogs/](http://flickrdownloadr.com/blogs/)
+## [flickrdownloadr.com/blogs/](https://flickrdownloadr.com/blogs/)
 
-Source files for the [flickrdownloadr.com](http://flickrdownloadr.com) blog at [flickrdownloadr.com/blogs/](http://flickrdownloadr.com/blogs/) created using the wonderful [Octopress](http://octopress.org) blogging platform.
+Source files for the [flickrdownloadr.com](https://flickrdownloadr.com) blog at [flickrdownloadr.com/blogs/](https://flickrdownloadr.com/blogs/) created using the wonderful [Octopress](http://octopress.org) blogging platform.
 

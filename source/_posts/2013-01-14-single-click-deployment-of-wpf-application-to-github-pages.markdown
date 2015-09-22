@@ -99,9 +99,9 @@ This target first waits for its dependant target `publish` to execute. Let's see
       <arg value="/p:ProductName=flickr downloadr (beta v${buildnumber.version})"/>
       <arg value="/p:ApplicationVersion=${buildnumber.version}"/>
       <arg value="/p:PublishDir=${bin.dir}\Deploy\"/>
-      <arg value="/p:InstallUrl=http://flickrdownloadr.com/downloads/latest/"/>
-      <arg value="/p:SupportUrl=http://flickrdownloadr.com/downloads/latest/"/>
-      <arg value="/p:ErrorReportUrl=http://flickrdownloadr.com/"/>
+      <arg value="/p:InstallUrl=https://flickrdownloadr.com/downloads/latest/"/>
+      <arg value="/p:SupportUrl=https://flickrdownloadr.com/downloads/latest/"/>
+      <arg value="/p:ErrorReportUrl=https://flickrdownloadr.com/"/>
       <arg value="/p:BootstrapperEnabled=true"/>
       <arg value="/p:CreateDesktopShortcut=true"/>
       <arg value="/p:CreateWebPageOnPublish=true"/>
@@ -169,7 +169,7 @@ Then we get to the [NAnt asminfo](http://nant.sourceforge.net/release/latest/hel
         <attribute type="AssemblyTitleAttribute" value="flickrDownloadr" />
         <attribute type="AssemblyDescriptionAttribute" value="A desktop application for windows that would help download all (or selected) photos from the user's photostream (in one of the selected sizes) along with the tags, titles and descriptions." />
         <attribute type="AssemblyConfigurationAttribute" value="${project.build.type}" />
-        <attribute type="AssemblyCompanyAttribute" value="http://flickrdownloadr.com" />
+        <attribute type="AssemblyCompanyAttribute" value="https://flickrdownloadr.com" />
         <attribute type="AssemblyProductAttribute" value="flickr downloadr" />
         <attribute type="AssemblyCopyrightAttribute" value="Copyright ${csharp-functions::get-copyright-symbol()} 2012-${datetime::get-year(datetime::now())} Haridas Pachuveetil" />
         <attribute type="AssemblyTrademarkAttribute" value="" />
