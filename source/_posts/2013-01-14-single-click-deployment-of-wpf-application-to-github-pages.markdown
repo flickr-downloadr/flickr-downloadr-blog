@@ -171,7 +171,7 @@ Then we get to the [NAnt asminfo](http://nant.sourceforge.net/release/latest/hel
         <attribute type="AssemblyConfigurationAttribute" value="${project.build.type}" />
         <attribute type="AssemblyCompanyAttribute" value="https://flickrdownloadr.com" />
         <attribute type="AssemblyProductAttribute" value="flickr downloadr" />
-        <attribute type="AssemblyCopyrightAttribute" value="Copyright ${csharp-functions::get-copyright-symbol()} 2012-${datetime::get-year(datetime::now())} Haridas Pachuveetil" />
+        <attribute type="AssemblyCopyrightAttribute" value="Copyright ${csharp-functions::get-copyright-symbol()} 2012-${datetime::get-year(datetime::now())} flickr downloadr" />
         <attribute type="AssemblyTrademarkAttribute" value="" />
         <attribute type="AssemblyCultureAttribute" value="" />
         <attribute type="AssemblyVersionAttribute" value="${buildnumber.version}" />
