@@ -73,15 +73,6 @@ twitter_user: FlickrDownloadr
 twitter_tweet_button: true
 twitter_widget_id: 471330746724921344
 
-# Google +1
-google_plus_one: false
-google_plus_one_size: small
-
-# Google Plus Profile
-# Hidden: No visible button, just add author information to search results
-googleplus_user: 112082983921398252462
-googleplus_hidden: true
-
 # Pinboard
 pinboard_user:
 pinboard_count: 3
